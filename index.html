@@ -1,6 +1,27 @@
 <head>
   <title>PIRATES ON A BOAT</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <style>
+	.video-container{
+		position:relative;
+		padding-bottom:100%;
+		padding-top:30px;
+		height:0;
+		overflow:hidden;
+	}
+	
+	.video-container iframe{
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+	}
+  </style>
 </head>
-<body background-color:black;>
-  <iframe src="https://www.youtube-nocookie.com/embed/7qjy9KWMyQE?controls=0&amp;start=22" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<body style="background-color:black;">
+	<div class="video-container">
+	<iframe width="1280" height="720" src="https://www.youtube.com/embed/7qjy9KWMyQE?start=22" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	</div>
 </body>
